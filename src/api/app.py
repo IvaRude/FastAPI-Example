@@ -3,7 +3,7 @@ from fastapi import Depends
 from fastapi import FastAPI
 from sqlalchemy.ext.asyncio import AsyncSession
 
-import schemas
+import src.api.schemas as schemas
 import src.db.dal as dal
 from src.db.base import get_session
 
